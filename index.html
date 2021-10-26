@@ -1,0 +1,67 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Intro p5.js</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+    <style type="text/css">
+        body {
+            background-image: url("https://thumbs.gfycat.com/CanineAmusedKentrosaurus-max-1mb.gif");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 170%;
+        }
+        
+        h3 {
+            font-size: 25px !important;
+        }
+        
+        canvas {
+            text-align: center;
+            border-width: 4px initial;
+            border-top: khaki;
+            border-left: mediumaquamarine;
+            border-right: mediumaquamarine;
+            border-bottom: khaki;
+        }
+        
+        h2 {
+            color: ivory;
+            font-family: cursive;
+            font-size: 23;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <div class="container">
+
+            <h3 class="btn btn-primary">FIRST P5.JS PROJECT</h3>
+
+            <br>
+            <br>
+            <h2>Enter Filter Color:</h2>
+            <input id="color_nane" placeholder="Enter Filter color">
+            <br>
+            <br>
+            <button class="btn btn-warning" onclick="filter_apply()">Apply Filter</button>
+            <br>
+            <br>
+            <button onclick="take_snapshot()" class="btn btn-success">Take Snapshot</button>
+            <br>
+            <br>
+            <span> <img id="birthday_tag" src="https://gallery.yopriceville.com/var/albums/Animated-Gif-Images/Happy_Birthday_with_Balloons_Gif_Animation.gif?m=1399676400">
+        </div>
+    </span>
+    </center>
+    <script src="main.js"></script>
+</body>
+
+</html>
